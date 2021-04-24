@@ -36,7 +36,7 @@ button.addEventListener('click',function(event){
         final_result === 100
     }
     
-    result.innerHTML = final_result;
+    result.innerHTML = final_result +"%";
   //result.innerHTML= setInterval((final_result +"%"),50);
   
 })
